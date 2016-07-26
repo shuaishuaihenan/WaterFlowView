@@ -14,6 +14,8 @@
 		68C7CF221B66625700254709 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C7CF211B66625700254709 /* Images.xcassets */; };
 		68C7CF251B66625700254709 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C7CF231B66625700254709 /* LaunchScreen.xib */; };
 		68C7CF311B66625700254709 /* WaterFlowViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7CF301B66625700254709 /* WaterFlowViewTests.m */; };
+		68C7CF3C1B66662C00254709 /* MyWaterflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7CF3B1B66662C00254709 /* MyWaterflowView.m */; };
+		68C7CF3F1B6668AF00254709 /* MyWaterflowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7CF3E1B6668AF00254709 /* MyWaterflowViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		68C7CF2A1B66625700254709 /* WaterFlowViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterFlowViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C7CF2F1B66625700254709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68C7CF301B66625700254709 /* WaterFlowViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowViewTests.m; sourceTree = "<group>"; };
+		68C7CF3A1B66662C00254709 /* MyWaterflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWaterflowView.h; sourceTree = "<group>"; };
+		68C7CF3B1B66662C00254709 /* MyWaterflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWaterflowView.m; sourceTree = "<group>"; };
+		68C7CF3D1B6668AF00254709 /* MyWaterflowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWaterflowViewCell.h; sourceTree = "<group>"; };
+		68C7CF3E1B6668AF00254709 /* MyWaterflowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWaterflowViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,8 @@
 				68C7CF211B66625700254709 /* Images.xcassets */,
 				68C7CF231B66625700254709 /* LaunchScreen.xib */,
 				68C7CF141B66625700254709 /* Supporting Files */,
+				68C7CF3A1B66662C00254709 /* MyWaterflowView.h */,
+				68C7CF3B1B66662C00254709 /* MyWaterflowView.m */,
 			);
 			path = WaterFlowView;
 			sourceTree = "<group>";
@@ -98,6 +106,8 @@
 			children = (
 				68C7CF151B66625700254709 /* Info.plist */,
 				68C7CF161B66625700254709 /* main.m */,
+				68C7CF3D1B6668AF00254709 /* MyWaterflowViewCell.h */,
+				68C7CF3E1B6668AF00254709 /* MyWaterflowViewCell.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C7CF3C1B66662C00254709 /* MyWaterflowView.m in Sources */,
+				68C7CF3F1B6668AF00254709 /* MyWaterflowViewCell.m in Sources */,
 				68C7CF1D1B66625700254709 /* ViewController.m in Sources */,
 				68C7CF1A1B66625700254709 /* AppDelegate.m in Sources */,
 				68C7CF171B66625700254709 /* main.m in Sources */,
@@ -350,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WaterFlowView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WaterFlowView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +432,7 @@
 				68C7CF361B66625700254709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68C7CF371B66625700254709 /* Build configuration list for PBXNativeTarget "WaterFlowViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				68C7CF391B66625700254709 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

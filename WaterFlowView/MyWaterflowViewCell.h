@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MyWaterflowViewCell.h
 //  WaterFlowView
 //
 //  Created by hanwei on 15/7/27.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
-
+@interface MyWaterflowViewCell : UIView
+@property(nonatomic,weak)NSString* identifier;
 @end
-
